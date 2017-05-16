@@ -1,0 +1,17 @@
+#contact-page{
+  ul{
+    padding: 0px;
+    li{
+      list-style: none;
+    }
+  }
+}
+
+
+@media (max-width: $mobile) {
+  #contact-page{
+    #contact-comments{
+      margin-top: 12px;
+    }
+  }
+}

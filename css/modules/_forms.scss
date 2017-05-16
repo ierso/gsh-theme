@@ -1,0 +1,61 @@
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="select"],
+.wpcf7 textarea{
+  width: 100%;
+  padding: 5px 0px 5px 10px;
+}
+#contact-comments{
+  height: 140px;
+}
+input::-webkit-input-placeholder {
+	color: $grey;
+}
+input::-moz-placeholder {
+	color: $grey;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+	color: $grey;
+}
+input:-ms-input-placeholder {
+	color: $grey;
+}
+textarea::-webkit-input-placeholder {
+color: $grey;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+color: $grey;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: $grey;
+}
+
+textarea:-ms-input-placeholder {
+color: $grey;
+}
+#contact-us{
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      list-style: none;
+      margin-bottom: 10px;
+      #state-drop{
+        float: left;
+        width: 30%;
+        height: 34px;
+      }
+      #zip-code{
+        float: right;
+        width: 60%;
+      }
+    }
+  }
+  .wpcf7-submit{
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+.panel-group{
+  margin-top: 20px;
+}
+.case-lead{
+  margin-bottom: 10px;
+}
+.case-study.row{
+  margin-bottom: 30px;
+  h3{
+    font-weight: 700;
+  }
+  .col-md-12.gray{
+    background-color: $light;
+    padding: 20px 20px 0px 20px;
+  }
+  img.cs-logo{
+    width: 60%;
+    padding: 0px 0px;
+  }
+}

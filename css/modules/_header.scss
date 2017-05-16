@@ -1,0 +1,43 @@
+#portal-wrapper{
+  float: right;
+  padding-top: 10px;
+  .portal-position{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    a.portal{
+      width: 150px;
+      display: block;
+      float: right;
+      text-align: center;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    ul#social{
+      margin:0px;
+      padding:0px;
+      text-align: right;
+      li{
+        margin:0px;
+        text-align: center;
+        display: inline-block;
+        a{
+          font-size: 1.25em;
+          padding: 0px 10px;
+          color: $black;
+          &:hover{
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+}
+
+a.navbar-brand{
+  color: $white;
+  &:hover{
+    color: $red;
+  }
+}

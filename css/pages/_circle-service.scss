@@ -1,0 +1,66 @@
+#service-overview{
+  margin-top: 35px;
+  .row.so-grp:first-child{
+    margin-bottom: 40px;
+  }
+  a.pdf-dl{
+    color: $red;
+    font-weight: 700;
+  }
+}
+
+.cos{
+  background-color: $black;
+  cursor: pointer;
+  width: 210px;
+  height: 345px;
+  position: relative;
+  padding: 20px 20px 0px 20px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  h3{
+    margin: 45px 0px 10px 0px;
+    font-size: 1.75em;
+    font-weight: 700;
+    color: $white;
+  }
+  p{
+    display: none;
+    color: $white;
+    line-height: 1.25em;
+  }
+  ul{
+    display: none;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 15px;
+    line-height: 1em;
+    li{
+      font-size: .90em;
+      padding-bottom: 4px;
+      color: $white;
+    }
+  }
+  &:hover{
+    background-color: $red;
+    background-image:url('img/interior/swipe-cos.png')!important;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: 85% 90%;
+    padding: 15px 0px 0px 0px;
+    h3{
+      display: none;
+    }
+    ul{
+      display: block;
+    }
+    p{
+      display: block;
+      padding: 0px 15px 0px 15px;
+    }
+  }
+}

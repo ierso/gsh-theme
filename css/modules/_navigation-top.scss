@@ -1,0 +1,72 @@
+#geo-nav.navbar.navbar-top{
+  margin: 0px;
+  a.gsh-brand{
+    float: left;
+    padding: 15px 0px 10px 0px;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    .logo-slogan{
+      display: block;
+      font-size: .75em;
+      font-style: italic;
+      padding: 0px 0px 0px 50px;
+      color: $grey;
+    }
+    img#gsh-logo{
+      width: 150px;
+    }
+  }
+}
+
+#geo-nav{
+  #navbar-top{
+    margin-top: 30px;
+  }
+}
+
+#geo-nav.navbar.navbar-top{
+  li{
+    a{
+      font-weight: 900;
+      padding: 15px 30px;
+      color: $red;
+      text-transform: uppercase;
+      &:hover{
+        color: $blue;
+        background-color: transparent;
+      }
+    }
+  }
+  .dropdown-menu{
+    border-radius: 0px;
+    border: solid 0px;
+    background-color: $white;
+    li{
+      a{
+        padding: 10px 30px;
+        &:hover{
+          color: $black;
+          background-color: transparent;
+
+        }
+      }
+    }
+  }
+  .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: transparent;
+  }
+}
+
+#geo-nav{
+  .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: transparent;
+    border-color: #337ab7;
+  }
+}
+
+#geo-nav{
+  .nav > li > a:focus{
+    background-color: transparent;
+  }
+}

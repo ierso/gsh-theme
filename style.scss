@@ -1,0 +1,46 @@
+/*
+Theme Name: gsh
+Theme URI: http://underscores.me/
+Author: Cory
+Author URI: http://underscores.me/
+Description: GSH Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gsh
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+gsh is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import "css/tools/_variables.scss";
+@import "css/tools/_global.scss";
+@import "css/modules/_header.scss";
+@import "css/modules/_navigation-top.scss";
+@import "css/modules/_navigation.scss";
+@import "css/modules/_slider.scss";
+@import "css/modules/_search.scss";
+@import "css/modules/_footer.scss";
+@import "css/modules/_marketing.scss";
+@import "css/modules/_services.scss";
+@import "css/modules/_testimonial.scss";
+@import "css/modules/_banner.scss";
+@import "css/modules/_sidebar.scss";
+@import "css/modules/_buttons.scss";
+@import "css/modules/_forms.scss";
+@import "css/modules/_slide-down.scss";
+@import "css/pages/_home.scss";
+@import "css/pages/_page.scss";
+@import "css/pages/_portal.scss";
+@import "css/pages/_circle-service.scss";
+@import "css/pages/_news.scss";
+@import "css/pages/_contact.scss";
+@import "css/pages/_posts.scss";
+@import "css/pages/_not-found.scss";
